@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing:border-box;
+    font-family: Roboto ;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    /* height: 4000px; */
+    background: whitesmoke;
+}
+
+.min-color{
+    background-color: #DBC39B;
+    }
+    
+
+/* Navbar */
+
+
+.nav-item a.nav-link{
+    color: black;
+}
+
+header .fixedNav{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background:#dbc49bd2;
+    color: black;
+    transition: all ease-in-out .5s;
+    height: 60px;
+    z-index: 9999;
+    display: flex;
+}
+
+
+
+.fixedNav img{
+    width: 80px;
+}
+
+
+/* Hero Section */
+
+
+.hero{
+    background: #0D0C0C;
+    height: 550px;
+}
+
+.slogin{
+    color:white;
+    font-family: Roboto Thin;
+    font-size: 90px;
+    
+}
+
+.JoinUs{
+    background:#DBC39B;
+    cursor: pointer;
+    outline: none;
+    margin-top: 400px;
+    margin-right: 50px;
+    font-size: 22px;
+    border-radius: 50px;
+    border:none;
+}
+
+.JoinUs:focus{
+    border: none;
+    outline: none;
+}
+
+.JoinUs{
+    outline: none;
+}
+
+/* Info Section */
+
+.shad{
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5);
+}
+
+
+/* Plans Section */
+
+.min-hover{
+    background: black; 
+    border-right: #DBC39B 7px solid;
+    transition: all ease-in-out .3s;
+}
+
+.hov:hover .min-hover {
+background:#DBC39B;
+}
+
+.sec-hover{
+    transition: all ease-in-out .3s;
+}
+.sec-hover p , .fas , .fa-server{
+    color: #DBC39B;
+}
+
+.hov:hover .sec-hover{
+background: black;
+}
+
+.thired-hover {
+    background: black;
+    border-right: rgb(206, 200, 200) 7px solid;
+    transition: all ease-in-out .3s;
+}
+
+.thired-hover p ,
+.thired-hover .fas,
+.thired-hover .fa-server
+{
+    color: rgb(206, 200, 200);
+    
+}
+
+.hov:hover .thired-hover{
+    background: rgb(206, 200, 200);
+}
+
+
+.hov:hover .thired-hover p ,
+.hov:hover .thired-hover .fas,
+.hov:hover .thired-hover .fa-server
+{
+    color: black;
+    
+}
+
+
+/* Footer */
+
+footer{
+    background: #0D0C0C;
+}
+
+.list-none{
+    list-style: none;
+}
+
+.link{
+  
+    padding: 15px 0;
+}
+
+.link>a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.link>a:hover{
+    color: white;
+   
+}
+
+
+/* Sevices */
+
+.text-color{
+    color: #DBC39B;
+}
+
+.services{
+display: flex;
+align-items: center;
+justify-content: center;
+color: white;
+width:100%;
+background: #0D0C0C;
+height: 150px;
+font-size:30px;
+transition: ease-in-out .3s;
+}
+
+.services:hover{
+    background:#DBC39B;
+    color: black;
+    cursor: pointer;
+}
+
+.p{
+    font-size: 30px;
+}
+
+

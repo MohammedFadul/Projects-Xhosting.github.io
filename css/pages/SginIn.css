@@ -1,0 +1,119 @@
+
+body{
+    /* height: 1000px; */
+}
+
+/* Left Side */
+
+.left-side div{
+    background: #DBC39B;
+    height: 38px;
+    border-radius: 10px;
+}
+
+.left-side input{
+    background: #DBC39B;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+  
+}
+.left-side input:focus-within{
+    color: whitesmoke;
+}
+
+.left-side input::placeholder{
+    color: white;
+    opacity: 1;
+}
+.left-side input:focus{
+    background:#DBC39B;
+    outline: none;
+}
+.form-control:focus-within{
+    border: none;
+}
+
+
+.left-side {
+    /* background: #0D0C0C; */
+    height: 400px;
+}
+
+
+
+.left-side input::after{
+    background: black;
+}
+
+.circle-color{
+    color: black;
+}
+
+
+/* Right Side */
+
+.right-side input::placeholder{
+    color: white;
+    opacity: 1;
+}
+
+.right-side div{
+    background: #0D0C0C;
+    height: 38px;
+    border-radius: 10px;
+}
+
+.right-side input{
+    background: #0D0C0C;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.right-side input:focus-within{
+    color: white;
+}
+.right-side input:focus{
+    background:#0D0C0C;
+    outline: none;
+}
+.form-control:focus-within{
+    border: none;
+}
+
+
+.right-side{
+    /* background: #DBC39B; */
+}
+
+.right-side input::after{
+    background: black;
+}
+
+.circle-color2{
+    color:#DBC39B;
+}
+
+/* Button */
+
+.signin{
+    width: 150px;
+    padding: 10px 10px;
+    background: #0D0C0C;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all ease-in-out .3s;
+    margin-bottom:80px
+}
+
+.signin:hover{
+    background: #DBC39B;
+}
+
+.signin:focus{
+    outline: none;
+}

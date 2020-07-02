@@ -1,0 +1,296 @@
+
+/* index */
+
+@media(max-width:767px){
+    ul.navbar-nav{
+        padding-left: 0;
+    }
+   .navbar-nav{
+       background: #0D0C0C;
+   }
+
+   .navbar-light .navbar-nav .nav-link{
+       color: white;
+   }
+   .navbar-light .navbar-nav .nav-link:hover{
+    color: white;
+}
+
+    .slogin{
+        font-size: 50px;
+    }
+
+    .xs-cloumn{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .JoinUs{
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .xs-width{
+        width: 350px;
+        height: 300px;
+    }
+
+    .xs-font{
+        font-size: 20px;
+    }
+
+    .info .col-lg-6{
+        height: 350px;
+    }
+
+    .plans{
+        padding-top: 100px;
+    }
+
+    .basic .col-lg-4
+    {
+        height: 300px;
+    }
+    .basic .col-lg-8{
+      padding-top: 50px;
+    }
+
+    .gold .col-lg-4{
+        height: 300px;
+    }
+
+    .gold .col-lg-8{
+        padding-top: 50px;
+      }
+
+      .plat .col-lg-4{
+        height: 300px;
+    }
+
+    .plat .col-lg-8{
+        padding-top: 50px;
+      }
+
+    .gold , .plat{
+        margin-top: 400px;
+    }
+
+    .serv{
+        padding-top: 180px;
+    }
+
+    footer{
+        height: 550px;
+    }
+
+    footer img{
+        margin-left: 0 !important;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    .service{
+        padding-top: 30px;
+    }
+}
+
+@media(min-width:768px) and (max-width:991px){
+
+    .slogin{
+        font-size: 60px;
+    }
+
+    .navbar-nav{
+        background: #0D0C0C;
+    }
+
+    .navbar-light .navbar-nav .nav-link{
+        color: white;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+     color: white;
+ }
+ 
+
+    .JoinUs{
+        margin: 0;
+        padding: 6px;
+        margin-top: 50px;
+    }
+
+    .xs-width{
+        height: 360px;
+    }
+
+    .xs-height{
+        height: 300px;
+    }
+
+    .xs-font{
+        font-size: 30px;
+    }
+
+    .plans{
+        padding-top: 100px;
+    }
+    .basic .col-lg-4
+    {
+        height: 300px;
+    }
+    .basic .col-lg-8{
+      padding-top: 50px;
+    }
+
+    .gold .col-lg-4{
+        height: 300px;
+    }
+
+    .gold .col-lg-8{
+        padding-top: 50px;
+      }
+
+      .plat .col-lg-4{
+        height: 300px;
+    }
+
+    .plat .col-lg-8{
+        padding-top: 50px;
+      }
+
+    .gold , .plat{
+        margin-top: 400px;
+    }
+
+    .serv{
+        padding-top: 180px;
+    }
+
+    footer .row{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media (min-width:992px){
+    .xs-font{
+        font-size: 30px;
+    }
+    .slogin{
+        font-size: 70px;
+    }
+
+  
+}
+
+
+/* Services */
+
+@media(max-width:767px){
+    ul.navbar-nav{
+        padding-left: 0;
+    }
+
+    .vps{
+        padding-top: 100px;
+    }
+
+    .dedicated{
+        padding-top: 100px;
+    }
+
+    .xs-height{
+        height: 300px;
+    }
+
+    footer{
+        margin-top: 350px;
+    }
+
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .xs-height{
+        height: 300px;
+    }
+    .vps{
+        padding-top: 100px;
+    }
+
+    .dedicated{
+        padding-top: 100px;
+    }
+
+    .padding-b{
+        padding-bottom: 80px;
+    }
+
+    .row-height{
+        height: 400px;
+    }
+
+}
+
+
+/* About */
+
+@media(max-width:767px){
+    .container .about-p{
+        font-size: 20px;
+    }
+}
+
+@media(min-width:768px){
+    .container .about-p{
+        font-size: 30px;
+  }
+}
+
+
+/* Contact */
+
+@media(max-width:767px){
+
+    .contact-xs{
+        font-size: 40px;
+    }
+
+    form input[type="email"]{
+        width: 100%;
+        padding: 5;
+        /* background: gray; */
+        padding-left: 25px;
+    }
+}
+
+/* Offers */
+
+@media (max-width:767px){
+    .offer-title{
+        font-size: 60px;
+    }
+}
+
+
+
+/* Sgin in*/
+
+@media(max-width:767px){
+    .left-side{
+        height: auto;
+    }
+}
+
+@media(min-width:768px){
+    .left-side{
+        height: auto;
+    }
+
+    .sing-brand{
+        padding-left: 0;
+    }
+}

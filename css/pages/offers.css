@@ -1,0 +1,52 @@
+
+/* Basic */
+
+.para-font{
+    font-size: 25px;
+}
+
+button.hov{
+    transition: all ease-in-out .4s;
+    border: none;
+}
+
+.hov:hover{
+    background: #DBC39B;
+    border: none;
+ 
+}
+
+.basic-color{
+    background: whitesmoke;
+    border:none;
+    transition: all ease-in-out .4s
+}
+
+.basic-color:hover{
+    opacity: 0.3;
+    border: none;
+}
+
+
+/*Gold*/
+
+.gold-color{
+   color: #DBC39B;
+}
+
+
+/* Platinume */
+
+.platinume-color{
+    color:rgb(206, 200, 200);
+}
+
+button.hov2{
+    transition: all ease-in-out .4s;
+    border: none;
+}
+
+.hov2:hover{
+    background: rgb(206, 200, 200);
+    border: none;
+}

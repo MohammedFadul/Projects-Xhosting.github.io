@@ -1,0 +1,28 @@
+.email{
+    width: 400px;
+    background: #0D0C0C;
+    padding: 10px 15px;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+
+.textarea{
+    width: 100%;
+    background: #0D0C0C;
+    color: white;
+    font-size: 25px;
+    border: none;
+    margin-bottom: 50px;
+}
+
+.send{
+    width: 150px;
+    background: #0D0C0C;
+    color:white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 50px;
+    font-size: 18px;
+}
