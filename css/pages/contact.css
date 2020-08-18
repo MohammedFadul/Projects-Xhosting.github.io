@@ -1,28 +1,61 @@
-.email{
-    width: 400px;
-    background: #0D0C0C;
+input[type="text"]{
+    width: 100%;
+    background: #d8d8d8;
     padding: 10px 15px;
-    color: white;
+    margin: 10px 0;
+    color: rgb(0, 0, 0);
     font-size: 18px;
     border: none;
+    outline: none;
 }
 
 .textarea{
     width: 100%;
-    background: #0D0C0C;
-    color: white;
+    height: 300px;
+    padding-top: 20px;
+    background:#d8d8d8;
+    color: rgb(0, 0, 0);
     font-size: 25px;
     border: none;
     margin-bottom: 50px;
+    padding-left: 50px;
+    outline: none;
+ 
 }
 
 .send{
     width: 150px;
-    background: #0D0C0C;
+    background: #222121;;
     color:white;
     padding: 10px 15px;
     border: none;
     cursor: pointer;
     margin-bottom: 50px;
     font-size: 18px;
+    outline: none;
+}
+.send:focus{
+    border: none;
+    outline: none;
+}
+
+.navbar-brand{
+    padding-left: 150px;
+}
+
+
+@media(max-width:767px){
+    .textarea{
+        margin: 30px auto;
+    }
+    .navbar-brand{
+        padding-left: 0;
+    }
+}
+
+
+@media(min-width:768px) and (max-width:991px){
+    .textarea{
+        margin: 30px auto;
+    }
 }

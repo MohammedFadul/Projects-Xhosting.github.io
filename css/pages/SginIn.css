@@ -1,8 +1,4 @@
 
-body{
-    /* height: 1000px; */
-}
-
 /* Left Side */
 
 .left-side div{
@@ -20,11 +16,11 @@ body{
   
 }
 .left-side input:focus-within{
-    color: whitesmoke;
+    color: black;
 }
 
 .left-side input::placeholder{
-    color: white;
+    color: black;
     opacity: 1;
 }
 .left-side input:focus{
@@ -54,28 +50,30 @@ body{
 
 /* Right Side */
 
+.right-side{
+    margin-top: 6px;
+}
 .right-side input::placeholder{
-    color: white;
+    color: black;
     opacity: 1;
 }
 
 .right-side div{
-    background: #0D0C0C;
+    background:#DBC39B ;
     height: 38px;
     border-radius: 10px;
 }
 
 .right-side input{
-    background: #0D0C0C;
+    background: #DBC39B;
     border: none;
     border-radius: 10px;
     color: white;
 }
 .right-side input:focus-within{
-    color: white;
+    color: black;
 }
 .right-side input:focus{
-    background:#0D0C0C;
     outline: none;
 }
 .form-control:focus-within{
@@ -83,16 +81,22 @@ body{
 }
 
 
-.right-side{
-    /* background: #DBC39B; */
-}
 
 .right-side input::after{
     background: black;
 }
 
 .circle-color2{
-    color:#DBC39B;
+    color:#0D0C0C;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    background-color:transparent;
+}
+
+.left-side input[type="email"]{
+    padding: 6px 12px;
 }
 
 /* Button */

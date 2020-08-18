@@ -56,14 +56,15 @@ header .fixedNav{
 
 
 .hero{
-    background: #0D0C0C;
+    background: url('../images/background.jpg') bottom no-repeat;
+    /* background: #0D0C0C; */
     height: 550px;
 }
 
 .slogin{
     color:white;
-    font-family: Roboto Thin;
-    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif ;
+    /* font-size: 90px; */
     
 }
 
