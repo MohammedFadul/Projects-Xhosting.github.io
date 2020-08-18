@@ -17,7 +17,8 @@
 }
 
     .slogin{
-        font-size: 45px;
+        font-size: 35px;
+        text-align: center;
     }
 
     .xs-cloumn{
@@ -40,7 +41,6 @@
 
     .xs-font{
         font-size: 20px;
-        color: black
     }
 
     .info .col-lg-6{
@@ -101,7 +101,8 @@
 @media(min-width:768px) and (max-width:991px){
 
     .slogin{
-        font-size: 60px;
+        font-size: 45px;
+        text-align: center;
     }
 
     .navbar-nav{
@@ -119,7 +120,7 @@
     .JoinUs{
         margin: 0;
         padding: 6px;
-        margin-top: 50px;
+        /* margin-top: 50px; */
     }
 
     .xs-width{
